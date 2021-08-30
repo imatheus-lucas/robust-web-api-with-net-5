@@ -1,12 +1,5 @@
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\bin\Debug\net5.0\Manager.Services.deps.json
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\bin\Debug\net5.0\Manager.Services.dll
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\bin\Debug\net5.0\ref\Manager.Services.dll
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\bin\Debug\net5.0\Manager.Services.pdb
 C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.csproj.AssemblyReference.cache
 C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.AssemblyInfoInputs.cache
 C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.AssemblyInfo.cs
 C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.csproj.CoreCompileInputs.cache
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.dll
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\ref\Manager.Services.dll
-C:\Users\matheus.lucas\Desktop\manager\src\Manager.Services\obj\Debug\net5.0\Manager.Services.pdb

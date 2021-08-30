@@ -227,8 +227,14 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
+      "Manager.Core/1.0.0": {
+        "runtime": {
+          "Manager.Core.dll": {}
+        }
+      },
       "Manager.Domain/1.0.0": {
         "dependencies": {
+          "Manager.Core": "1.0.0",
           "FluentValidation": "10.3.3"
         },
         "runtime": {
@@ -410,6 +416,11 @@
       "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
       "path": "system.runtime.compilerservices.unsafe/4.6.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    },
+    "Manager.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Manager.Domain/1.0.0": {
       "type": "project",
