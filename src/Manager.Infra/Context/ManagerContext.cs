@@ -8,7 +8,15 @@ namespace Manager.Infra.Context
   {
     public ManagerContext() { }
 
-    public ManagerContext(DbContextOptions<ManagerContext> options) : base(options) { }
+    public ManagerContext(DbContextOptions<ManagerContext> options) : base(options)
+    {
+
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+      optionsBuilder.UseNpgsql("Server=127.0.0.1; port=5438; user id = postgres; password = postgres; database=postgres; pooling = true");
+    }
 
     public virtual DbSet<User> Users { get; set; }
 

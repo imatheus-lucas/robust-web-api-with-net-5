@@ -1,7 +1,6 @@
 using Manager.Domain.Entities;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using Manager.Domain.Entities;
 
 namespace Manager.Infra.Interfaces
 {
