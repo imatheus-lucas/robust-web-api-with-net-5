@@ -1,0 +1,5 @@
+C:\Users\matheus.lucas\Desktop\manager\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.AssemblyReference.cache
+C:\Users\matheus.lucas\Desktop\manager\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.lucas\Desktop\manager\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache
+C:\Users\matheus.lucas\Desktop\manager\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfo.cs
+C:\Users\matheus.lucas\Desktop\manager\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.CoreCompileInputs.cache

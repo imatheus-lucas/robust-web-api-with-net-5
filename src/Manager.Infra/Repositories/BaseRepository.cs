@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
+using System.Collections.Generic;
+
 namespace Manager.Infra.Repositories
 {
-  public abstract class BaseRepository<T> : IBaseRepository<T> where T : Base
+  public abstract class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
   {
     private readonly ManagerContext _context;
 
@@ -32,6 +34,7 @@ namespace Manager.Infra.Repositories
     public virtual async Task Delete(long id)
     {
       var obj = await Get(id);
+
       if (obj != null)
       {
         _context.Remove(obj);
@@ -41,13 +44,21 @@ namespace Manager.Infra.Repositories
 
     public virtual async Task<T> Get(long id)
     {
-      var obj = await _context.Set<T>().AsNoTracking().Where(x => x.id == id).ToListAsync();
+      var obj = await _context.Set<T>()
+                              .AsNoTracking()
+                              .Where(x => x.Id == id)
+                              .ToListAsync();
+
       return obj.FirstOrDefault();
     }
 
     public virtual async Task<List<T>> Get()
     {
-      var obj = await _context.Set<T>().AsNoTracking().ToListAsync();
+      return await _context.Set<T>()
+                           .AsNoTracking()
+                           .ToListAsync();
     }
+
+
   }
 }

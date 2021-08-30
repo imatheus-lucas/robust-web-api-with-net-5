@@ -1,7 +1,11 @@
-using Manager.Infra.Context;
-using Manager.Domain.Entities;
-using Manager.Infra.Interfaces;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Manager.Domain.Entities;
+using Manager.Infra.Context;
+using Manager.Infra.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 namespace Manager.Infra.Repositories
 {
   public class UserRepository : BaseRepository<User>, IUserRepository
@@ -13,14 +17,18 @@ namespace Manager.Infra.Repositories
       _context = context;
     }
 
-    public async Task<UserRepository> GetByEmail(string email)
+    public async Task<User> GetByEmail(string email)
     {
       var user = await _context.Users
-              .Where(x => x.Email.ToLower() == email.ToLower())
-              .AsNoTracking()
-              .ToListAsync()
-              .FirstOrDefaultAsync();
-      return user;
+                                   .Where
+                                   (
+                                        x =>
+                                            x.Email.ToLower() == email.ToLower()
+                                    )
+                                    .AsNoTracking()
+                                    .ToListAsync();
+
+      return user.FirstOrDefault();
     }
 
     public async Task<List<User>> SearchByEmail(string email)
@@ -42,5 +50,7 @@ namespace Manager.Infra.Repositories
 
       return AllUsers;
     }
+
+
   }
 }
