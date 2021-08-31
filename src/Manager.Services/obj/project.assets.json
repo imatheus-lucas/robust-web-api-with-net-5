@@ -940,11 +940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Services\\Manager.Services.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
       "projectName": "Manager.Services",
-      "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Services\\Manager.Services.csproj",
+      "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
       "packagesPath": "C:\\Users\\matheus.lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Services\\obj\\",
+      "outputPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matheus.lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -961,14 +961,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj": {
-              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj"
+            "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
             },
-            "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
-              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Domain\\Manager.Domain.csproj"
+            "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
             },
-            "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
-              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Infra\\Manager.Infra.csproj"
+            "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
+              "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj"
             }
           }
         }

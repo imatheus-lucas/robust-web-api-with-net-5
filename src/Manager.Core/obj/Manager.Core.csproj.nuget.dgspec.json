@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj": {}
+    "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj": {
+    "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "projectName": "Manager.Core",
-        "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
         "packagesPath": "C:\\Users\\matheus.lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Core\\obj\\",
+        "outputPath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matheus.lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aFlQzMlP6RWT5gIpFsFC27ffFwZRqf+PvUC2C8DykEOU/HP0GOnxy2uxzkmOqggIhUpzSLLvPYUT8aJ6ivHKew==",
+  "dgSpecHash": "MVva0kSwz+QU9aFLFwYSoFu9Hl8D967yKAorz+FPKqtu00ew6vqGEemEylLuvAkD26FHoD6DkuKhlbf4xNUq/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Infra\\Manager.Infra.csproj",
+  "projectFilePath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus.lucas\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\matheus.lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

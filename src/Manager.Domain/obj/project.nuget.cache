@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQcZLe8wD/0Tj+6KwvrI+BCKnBN2BXTDxvY6eZoul8jmFZXFlx2W6kOs7Defdh9M3SRq1v178l5C+wtDUyaIOw==",
+  "dgSpecHash": "jLko56sqx8D8tMtorWWTgPM+Z8ONKtRNzKO7CF9bwD0DYfBH7cfCuHeyeoq8t88eMV4MuQLKcgaVySVJxejDwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.lucas\\Desktop\\manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\matheus.lucas\\Desktop\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus.lucas\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512"
   ],
